@@ -1,9 +1,16 @@
+html {
+	background: lightgray;
+}
+
 #main {
 	width: 800px;
+	background: white;
+	margin: 0 auto;
 }
 
 #top {
-	
+	padding: 10px;
+	border: 2px solid cyan;
 }
 
 #middle {
@@ -13,20 +20,42 @@
 #navigation {
 	float: left;
 	width: 200px;
+	background: gray;
+}
+
+#nav-list {
+	padding: 0;
+	margin: 1px;
 }
 
 .nav {
-	color: blue;
+	background: cyan;
+	list-style: none;
+	padding: 20px;
+	margin: 2px;
+}
+
+.nav-link {
+	text-decoration: none;
+	color: black;
+}
+
+.nav-inactive:hover {
+	background: blue;
 }
 
 .nav-active {
-	color: red;
+	background: red;
 }
 
 #content {
-
+	padding-left: 10px;
+	float: left;
+	border: 2px solid cyan;
 }
 
 #bottom {
-	clear: all;
+	clear: both;
+	border: 2px solid cyan;
+	padding: 10px;
 }
