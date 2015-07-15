@@ -11,7 +11,8 @@
 }
 
 #navigation {
-
+	float: left;
+	width: 200px;
 }
 
 .nav {
@@ -27,5 +28,5 @@
 }
 
 #bottom {
-
+	clear: all;
 }
