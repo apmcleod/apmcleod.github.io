@@ -12,10 +12,10 @@ html {
 #top {
 	padding: 10px;
 	border-bottom: 4px solid black;
+	margin-bottom: 4px;
 }
 
 #middle {
-
 }
 
 #navigation {
@@ -26,16 +26,14 @@ html {
 
 #nav-list {
 	padding: 0;
-	margin: 3px;
+	margin: 1px;
 }
 
 .nav {
-	border-radius: 15px;
-	border: 2px solid black;
-	background: cyan;
+	border-radius: 2px;
 	list-style: none;
 	padding: 15px;
-	margin: 5px;
+	margin: 2px;
 }
 
 .nav-link {
@@ -43,22 +41,30 @@ html {
 	color: black;
 }
 
+.nav-inactive {
+	border-bottom: 3px solid #031168;
+	border-top: 1px solid #3148DA;
+	background: #0D2AE0;
+}
+
 .nav-inactive:hover {
-	background: blue;
+	border-bottom: 3px solid #071EAA;
+	border-top: 1px solid #071EAA;
+	background: #071EAA;
 }
 
 .nav-active {
-	background: red;
+	border-bottom: 3px solid #FD000D;
+	border-top: 1px solid #FD000D;
+	background: #FD000D;
 }
 
 #content {
 	padding-left: 10px;
 	float: left;
-	border: 2px solid cyan;
+	width: 580px;
 }
 
 #bottom {
 	clear: both;
-	border: 2px solid cyan;
-	padding: 10px;
 }
