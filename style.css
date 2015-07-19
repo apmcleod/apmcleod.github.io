@@ -1,5 +1,5 @@
 html {
-	background: lightgray;
+	background: darkgray;
 	font-family: Verdana, Arial, SunSans-Regular, Sans-Serif;
 }
 
@@ -7,21 +7,26 @@ html {
 	width: 800px;
 	background: white;
 	margin: 0 auto;
+	border-top: 2px solid gray;
+	border-bottom: 2px solid lightgray;
+	border-right: 1px solid gray;
+	border-left: 1px solid gray;
+	border-radius: 3px;
 }
 
 #top {
 	padding: 10px;
-	border-bottom: 4px solid black;
-	margin-bottom: 4px;
+	border-bottom: 2px solid lightgray;
 }
 
 #middle {
+	border-top: 2px solid gray;
+	padding-top: 4px;
 }
 
 #navigation {
 	float: left;
 	width: 200px;
-	background: gray;
 }
 
 #nav-list {
@@ -30,10 +35,10 @@ html {
 }
 
 .nav {
-	border-radius: 2px;
 	list-style: none;
 	padding: 15px;
-	margin: 2px;
+	margin: 4px;
+	border-radius: 2px;
 }
 
 .nav-link {
@@ -42,21 +47,25 @@ html {
 }
 
 .nav-inactive {
-	border-bottom: 3px solid #031168;
-	border-top: 1px solid #3148DA;
-	background: #0D2AE0;
+	border-bottom: 3px solid gray;
+	border-top: 3px solid lightgray;
+	background: darkgray;
+	border-right: 1px solid gray;
+	border-left: 1px solid gray;
 }
 
 .nav-inactive:hover {
-	border-bottom: 3px solid #071EAA;
-	border-top: 1px solid #071EAA;
-	background: #071EAA;
+	border-bottom: 3px solid darkgray;
+	border-top: 3px solid darkgray;
+	background: darkgray;
+	border-right: 1px solid darkgray;
+	border-left: 1px solid darkgray;
 }
 
 .nav-active {
-	border-bottom: 3px solid #FD000D;
-	border-top: 1px solid #FD000D;
-	background: #FD000D;
+	border-bottom: 3px solid lightgray;
+	border-top: 3px solid lightgray;
+	background: lightgray;
 }
 
 #content {
