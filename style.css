@@ -28,6 +28,11 @@ html {
 	padding-top: 4px;
 }
 
+#middle-bottom-border {
+	border-bottom: 2px solid lightgray;
+	clear: both;
+}
+
 #navigation {
 	float: left;
 	width: 200px;
@@ -83,7 +88,6 @@ html {
 }
 
 #bottom {
-	clear: both;
 	padding: 10px;
 	border-top: 2px solid gray;
 }
