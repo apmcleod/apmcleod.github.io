@@ -1,35 +1,40 @@
 html {
-	background: darkgray;
-	font-family: Verdana, Arial, SunSans-Regular, Sans-Serif;
+	background: #334777;
+	font-family: Arial,Lucida Grande,sans-serif;
+	font-size: 14px;
 }
 
 #main {
 	width: 800px;
 	background: white;
 	margin: 0 auto;
-	border-top: 2px solid gray;
-	border-bottom: 2px solid lightgray;
-	border-right: 1px solid gray;
-	border-left: 1px solid gray;
+	border-top: 2px solid #08183D;
+	border-bottom: 2px solid #808FB1;
+	border-right: 1px solid #08183D;
+	border-left: 1px solid #08183D;
 	border-radius: 3px;
 }
 
 #top {
 	padding: 10px;
-	border-bottom: 2px solid lightgray;
+	padding-bottom: 8px;
+	border-bottom: 2px solid #808FB1;
 }
 
 .name {
-	
+	color: black;
+	text-decoration: none;
+	font-size: 17px;
+	font-weight: bold;
 }
 
 #middle {
-	border-top: 2px solid gray;
+	border-top: 2px solid #08183D;
 	padding-top: 4px;
 }
 
 #middle-bottom-border {
-	border-bottom: 2px solid lightgray;
+	border-bottom: 2px solid #808FB1;
 	clear: both;
 }
 
@@ -45,9 +50,11 @@ html {
 
 .nav {
 	list-style: none;
-	padding: 15px;
+	padding: 10px;
 	margin: 4px;
 	border-radius: 2px;
+	font-size: 15px;
+	font-weight: bold;
 }
 
 .nav-link {
@@ -56,25 +63,26 @@ html {
 }
 
 .nav-inactive {
-	border-bottom: 3px solid gray;
-	border-top: 3px solid lightgray;
-	background: darkgray;
-	border-right: 1px solid gray;
-	border-left: 1px solid gray;
+	border-bottom: 3px solid #08183D;
+	border-top: 3px solid #808FB1;
+	background: #334777;
+	border-right: 1px solid #08183D;
+	border-left: 1px solid #08183D;
+	color: lightgray;
 }
 
 .nav-inactive:hover {
-	border-bottom: 3px solid darkgray;
-	border-top: 3px solid darkgray;
-	background: darkgray;
-	border-right: 1px solid darkgray;
-	border-left: 1px solid darkgray;
+	border-bottom: 3px solid #334777;
+	border-top: 3px solid #334777;
+	background: #334777;
+	border-right: 1px solid #334777;
+	border-left: 1px solid #334777;
 }
 
 .nav-active {
-	border-bottom: 3px solid lightgray;
-	border-top: 3px solid lightgray;
-	background: lightgray;
+	border-bottom: 3px solid #808FB1;
+	border-top: 3px solid #808FB1;
+	background: #808FB1;
 }
 
 #content {
@@ -85,9 +93,15 @@ html {
 
 .section-header {
 	font-weight: bold;
+	font-size: 16px;
+	margin-bottom: 15px;
+	padding-top: 10px;
+	padding-left: 5px;
+	border-bottom: 1px black dashed;
 }
 
 #bottom {
-	padding: 10px;
-	border-top: 2px solid gray;
+	font-size: 12px;
+	padding: 6px;
+	border-top: 2px solid #08183D;
 }
