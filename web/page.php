@@ -78,7 +78,7 @@ abstract class Page {
 						<div id="middle-bottom-border"></div>
 				    
 						<div id="bottom">
-							<a href="CV.pdf">CV</a>
+							<a href="pdf/CV.pdf">CV</a>
 						</div>
 					</div>
 				
