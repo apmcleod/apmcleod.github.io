@@ -1,0 +1,7 @@
+id=VoiceSplitting
+title=Voice Splitting
+description=A project written in Java which is able to take polyphonic MIDI files as input and separate the notes within into strictly monophonic voices. The program can be run either from the command line, or with a GUI. Read the paper (accepted to be published in the Journal of New Music Research) for more detailed information, or head over to GitHub to view the code, along with a brief readme for more information on how to use it. If you do use, please cite appropriately the paper. Please email me with any questions, comments, suggestions you might have!
+link1_name=Paper
+link1_location=pdf/VoiceSeparation.pdf
+link2_name=GitHub
+link2_location=https://github.com/apmcleod/voice-splitting
