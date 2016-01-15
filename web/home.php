@@ -41,7 +41,7 @@ class HomePage extends Page {
 		        </p>
 		        
 		        <p>
-		        Use the navigation buttons on the left to find out more about my work, or click <a href="CV.pdf">here</a>
+		        Use the navigation buttons on the left to find out more about my work, or click <a href="pdf/CV.pdf">here</a>
 		        (or on the link at the bottom of each page) to see my CV.
 		        </p>';
 	}
