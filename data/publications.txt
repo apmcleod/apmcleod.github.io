@@ -1,0 +1,27 @@
+id=VoiceSeparation
+title=HMM-Based Voice Separation of MIDI Performance
+authors=Andrew McLeod and Mark Steedman
+year=2016
+location=Journal of New Music Research <i>(to be published)</i>
+link1_name=Paper
+link1_location=pdf/VoiceSeparation.pdf
+link2_name=Software
+link2_location=software.php#VoiceSplitting
+
+id=TimeSig
+title=Meter Identification of MIDI Using Pattern Detection
+authors=Andrew McLeod
+year=2015
+location=Late-Breaking Demo Session of the 16th International Society for Music Information Retrieval Conference
+link1_name=Abstract
+link1_location=pdf/TimeSig.pdf
+link2_name=Poster
+link2_location=pdf/TimeSigPoster.pdf
+
+id=LMP
+title=Automatic Transcription of Polyphonic Musical Signals with Linear Matching Pursuit
+authors=Andrew McLeod
+year=2013
+location=Masters Thesis, Emory University
+link1_name=Paper
+link1_location=pdf/LMP.pdf

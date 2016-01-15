@@ -13,7 +13,7 @@ class SoftwarePage extends Page {
 	}
 	
 	private function print_software() {
-		$software_file = fopen("../data/software.txt", "r") or die("ERROR");
+		$software_file = fopen("../data/software.txt", "r");
 		$software_data = fread($software_file,filesize("../data/software.txt"));
 		fclose($software_file);
 		
@@ -23,13 +23,13 @@ class SoftwarePage extends Page {
 		$i = 0;
 		for ($i = 0; $i < count($software_array); $i = $i + 1) {
 			if (strcmp('', $software_array[$i]) == 0) {
-				$this->print_software_item(array_slice($software_array, $last_blank + 1, $i - $last_blank + 1));
+				$this->print_software_item(array_slice($software_array, $last_blank + 1, $i - $last_blank - 1));
 				$last_blank = $i;
 			}
 		}
 		
 		if ($last_blank !== $i - 1) {
-			$this->print_software_item(array_slice($software_array, $last_blank + 1, $i - $last_blank + 1));
+			$this->print_software_item(array_slice($software_array, $last_blank + 1, $i - $last_blank - 1));
 		}
 	}
 	
@@ -42,8 +42,6 @@ class SoftwarePage extends Page {
 				$software_item_value = substr($software_item_entry, $pos + 1);
 				$software_item_map[$software_item_key] = $software_item_value;
 				
-			} else {
-				print 'Unrecognized line in software.txt: ' . $software_item_entry;
 			}
 		}
 		
