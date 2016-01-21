@@ -2,11 +2,13 @@ id=VoiceSeparation
 title=HMM-Based Voice Separation of MIDI Performance
 authors=Andrew McLeod and Mark Steedman
 year=2016
-location=Journal of New Music Research <i>(to be published)</i>
+location=Journal of New Music Research <i>(to appear)</i>
 link1_name=Paper
 link1_location=pdf/VoiceSeparation.pdf
-link2_name=Software
-link2_location=software.php#VoiceSplitting
+link2_name=Bibtex
+link3_location=bib/VoiceSeparation.bib
+link3_name=Software
+link3_location=software.php#VoiceSplitting
 
 id=TimeSig
 title=Meter Identification of MIDI Using Pattern Detection
