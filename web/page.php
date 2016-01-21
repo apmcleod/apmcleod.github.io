@@ -22,7 +22,7 @@ abstract class Page {
 				
 					<div id="main">
 						<div id="top">
-							<a class="name" href="index.html">Andrew McLeod</a>
+							<a class="name" href="home.php">Andrew McLeod</a>
 						</div>
 				    
 						<div id="middle">';
