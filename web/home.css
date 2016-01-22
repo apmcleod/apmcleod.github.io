@@ -3,3 +3,8 @@
 	vertical-align: top;
     text-align: left;
 }
+
+#me {
+	float: right;
+	padding-right: 20px;
+}
