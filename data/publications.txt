@@ -8,7 +8,7 @@ link1_location=pdf/VoiceSeparation.pdf
 link2_name=Bibtex
 link2_location=bib/VoiceSeparation.bib
 link3_name=Software
-link3_location=software.php#VoiceSplitting
+link3_location=software.html#VoiceSplitting
 
 id=TimeSig
 title=Meter Identification of MIDI Using Pattern Detection
