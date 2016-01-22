@@ -22,7 +22,7 @@ abstract class Page {
 				
 					<div id="main">
 						<div id="top">
-							<a class="name" href="home.php">Andrew McLeod</a>
+							<a class="name" href="home.html">Andrew McLeod</a>
 						</div>
 				    
 						<div id="middle">';
@@ -58,7 +58,7 @@ abstract class Page {
 		
 		if (strcmp($lower_name, $this->page_name) !== 0) {
 			$class = 'nav-inactive';
-			print '<a class="nav-link" href="' . $lower_name . '.php">';
+			print '<a class="nav-link" href="' . $lower_name . '.html">';
 		}
 		
 		print '<li class="nav ' . $class . '">' . $name . '</li>';
