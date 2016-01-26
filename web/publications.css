@@ -31,3 +31,8 @@
 	border-radius: 3px;
 	background: lightgray;
 }
+
+.publication-note {
+	margin-left: 15px;
+	font-size: 11px;
+}

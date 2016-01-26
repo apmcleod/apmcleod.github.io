@@ -71,6 +71,8 @@ class PublicationsPage extends Page {
 			
 		    print '</div>';
 		}
+
+		print '<div class="publication-note">' . $this->val_or_empty($publications_item_map, 'note') . '</div>';
 		
 		print '</div>';
 	}
