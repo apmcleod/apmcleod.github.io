@@ -1,0 +1,7 @@
+id=TimeSigMIC
+title=Symbolic Music Analysis for Music Transcription
+authors=Andrew McLeod
+year=2016
+location=1st Music Informatics and Cognition Workshop, University of Edinburgh
+link1_name=Video
+link1_location=https://www.youtube.com/watch?v=0XkzQs-pP-Q

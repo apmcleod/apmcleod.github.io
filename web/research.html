@@ -5,16 +5,24 @@ ini_set("display_errors", TRUE);
 
 require __DIR__ . '/page.php';
 
-class PublicationsPage extends Page {
+class ResearchPage extends Page {
 	public function print_content() {
 		print '<div class="section-header">Publications</div>';
         
-		$this->print_publications();
+		$this->print_publications("../data/publications.txt");
+
+		print '<div class="section-header">Presentations</div>';
+        
+		$this->print_publications("../data/presentations.txt");
+
+		print '<div class="section-header">Posters</div>';
+        
+		$this->print_publications("../data/posters.txt");
 	}
 	
-	private function print_publications() {
-		$publications_file = fopen("../data/publications.txt", "r");
-		$publications_data = fread($publications_file,filesize("../data/publications.txt"));
+	private function print_publications($data_file) {
+		$publications_file = fopen($data_file, "r");
+		$publications_data = fread($publications_file,filesize($data_file));
 		fclose($publications_file);
 		
 		$publications_array = explode("\n", $publications_data);
@@ -86,8 +94,8 @@ class PublicationsPage extends Page {
 	}
 }
 
-$page = new PublicationsPage();
-$page->init('publications');
+$page = new ResearchPage();
+$page->init('research');
 $page->print_page();
 
 ?>

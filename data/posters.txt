@@ -1,0 +1,17 @@
+id=TimeSigLPCFG
+title=Musical Meter Detection Using Context-Free Grammars
+authors=Andrew McLeod and Mark Steedman
+year=2016
+location=1st Music Informatics and Cognition Workshop
+link1_name=Poster
+link1_location=pdf/TimeSigLPCFG.pdf
+
+id=TimeSig
+title=Meter Identification of MIDI Using Pattern Detection
+authors=Andrew McLeod
+year=2015
+location=Late-Breaking Demo Session of the 16th International Society for Music Information Retrieval Conference
+link1_name=Abstract
+link1_location=pdf/TimeSig.pdf
+link2_name=Poster
+link2_location=pdf/TimeSigPoster.pdf

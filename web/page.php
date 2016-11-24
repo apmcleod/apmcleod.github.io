@@ -54,7 +54,7 @@ abstract class Page {
 					<ul id="nav-list">';
 		
 		$this->print_nav_link("Home");
-		$this->print_nav_link("Publications");
+		$this->print_nav_link("Research");
 		$this->print_nav_link("Software");
 		
 		print '
