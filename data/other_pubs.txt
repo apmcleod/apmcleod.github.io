@@ -1,0 +1,9 @@
+id=LMP
+title=Automatic Transcription of Polyphonic Musical Signals with Linear Matching Pursuit
+authors=Andrew McLeod
+year=2013
+location=Masters Thesis, Emory University
+link1_name=Paper
+link1_location=pdf/LMP.pdf
+link2_name=Bibtex
+link2_location=bib/LMP.bib

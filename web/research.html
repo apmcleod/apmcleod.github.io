@@ -7,16 +7,19 @@ require __DIR__ . '/page.php';
 
 class ResearchPage extends Page {
 	public function print_content() {
-		print '<div class="section-header">Publications</div>';
-        
-		$this->print_publications("../data/publications.txt");
+		print '<div class="section-header">Refereed Journal Articles</div>';
+		$this->print_publications("../data/journals.txt");
+		
+		print '<div class="section-header">Refereed Conference Papers</div>';
+		$this->print_publications("../data/conferences.txt");
+		
+		print '<div class="section-header">Other Publications</div>';
+		$this->print_publications("../data/other_pubs.txt");
 
 		print '<div class="section-header">Presentations</div>';
-        
 		$this->print_publications("../data/presentations.txt");
 
 		print '<div class="section-header">Posters</div>';
-        
 		$this->print_publications("../data/posters.txt");
 	}
 	

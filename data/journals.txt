@@ -1,0 +1,14 @@
+id=VoiceSeparation
+title=HMM-Based Voice Separation of MIDI Performance
+authors=Andrew McLeod and Mark Steedman
+year=2016
+location=Journal of New Music Research
+link1_name=Paper
+link1_location=pdf/VoiceSeparation.pdf
+link2_name=Bibtex
+link2_location=bib/VoiceSeparation.bib
+link3_name=DOI
+link3_location=https://doi.org/10.1080/09298215.2015.1136650
+link4_name=Software
+link4_location=software.html#VoiceSplitting
+note=The Version of Record of this manuscript has been published and is available in Journal of New Music Research 25 Jan 2016 <a href="http://www.tandfonline.com/doi/full/10.1080/09298215.2015.1136650">http://www.tandfonline.com/doi/full/10.1080/09298215.2015.1136650</a>.
