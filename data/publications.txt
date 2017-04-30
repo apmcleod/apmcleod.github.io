@@ -3,6 +3,8 @@ title=Meter Detection in Symbolic Music Using a Lexicalized PCFG
 authors=Andrew McLeod and Mark Steedman
 year=2017, to appear
 location=Proceedings of the 14th Sound and Music Computing Conference
+link1_name=Bibtex
+link1_location=bib/MeterDetection.bib
 
 id=VoiceSeparation
 title=HMM-Based Voice Separation of MIDI Performance
