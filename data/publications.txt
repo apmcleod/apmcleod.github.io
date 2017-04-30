@@ -1,3 +1,11 @@
+id=MeterDetection
+title=Meter Detection in Symbolic Music Using a Lexicalized PCFG
+authors=Andrew McLeod and Mark Steedman
+year=2017
+location=Proceedings of the 14th Sound and Music Computing Conference
+note=To appear.
+
+
 id=VoiceSeparation
 title=HMM-Based Voice Separation of MIDI Performance
 authors=Andrew McLeod and Mark Steedman
