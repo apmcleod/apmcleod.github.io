@@ -7,3 +7,5 @@ link1_name=Paper
 link1_location=pdf/LPCFG.pdf
 link2_name=Bibtex
 link2_location=bib/MeterDetection.bib
+link3_name=Software
+link3_location=software.html#MeterDetection
