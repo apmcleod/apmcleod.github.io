@@ -1,3 +1,12 @@
+id=VoiceSepAcoustic
+title=Multi-pitch Detection and Voice Assignment for a Capella Recordings of Multiple Singers
+authors=Rodrigo Schramm, Andrew McLeod, Mark Steedman, and Emmanouil Benetos
+year=2017, to appear
+location=Proceedings of the 18th International Society for Music Information Retrieval Conference
+link1_name=Bibtex
+link1_location=bib/VoiceSepAcoustic.bib
+note=Authors 1 and 2 contributed equally to this work.
+
 id=MeterDetection
 title=Meter Detection in Symbolic Music Using a Lexicalized PCFG
 authors=Andrew McLeod and Mark Steedman
