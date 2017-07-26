@@ -5,7 +5,7 @@ ini_set("display_errors", TRUE);
 
 require __DIR__ . '/page.php';
 
-class ResearchPage extends Page {
+class PublicationsPage extends Page {
 	public function print_content() {
 		print '<div class="section-header">Refereed Journal Articles</div>';
 		$this->print_publications("../data/journals.txt");
@@ -97,8 +97,8 @@ class ResearchPage extends Page {
 	}
 }
 
-$page = new ResearchPage();
-$page->init('research');
+$page = new PublicationsPage();
+$page->init('publications');
 $page->print_page();
 
 ?>
