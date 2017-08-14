@@ -1,5 +1,5 @@
 id=VoiceSepAcoustic
-title=Multi-pitch Detection and Voice Assignment for a Capella Recordings of Multiple Singers
+title=Multi-pitch Detection and Voice Assignment for a Cappella Recordings of Multiple Singers
 authors=Rodrigo Schramm, Andrew McLeod, Mark Steedman, and Emmanouil Benetos
 year=2017, to appear
 location=Proceedings of the 18th International Society for Music Information Retrieval Conference
