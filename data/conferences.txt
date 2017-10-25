@@ -3,8 +3,14 @@ title=Multi-pitch Detection and Voice Assignment for a Cappella Recordings of Mu
 authors=Rodrigo Schramm, Andrew McLeod, Mark Steedman, and Emmanouil Benetos
 year=2017, to appear
 location=Proceedings of the 18th International Society for Music Information Retrieval Conference
-link1_name=Bibtex
-link1_location=bib/VoiceSepAcoustic.bib
+link1_name=Paper
+link1_location=pdf/Vocal4-ismir.pdf
+link2_name=Poster
+link2_location=pdf/Vocal4-ismir-poster.pdf
+link3_name=Bibtex
+link3_location=bib/VoiceSepAcoustic.bib
+link4_name=Software
+link4_location=http://inf.ufrgs.br/~rschramm/projects/msingers/
 note=Authors 1 and 2 contributed equally to this work.
 
 id=MeterDetection
