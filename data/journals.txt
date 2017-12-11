@@ -1,10 +1,12 @@
 id=VoiceSeparation
 title=Automatic Transcription of Polyphonic Vocal Music
 authors=Andrew McLeod, Rodrigo Schramm, Mark Steedman, and Emmanouil Benetos
-year=2017, accepted
+year=2017
 location=Applied Sciences
-link1_name=Bibtex
-link1_location=bib/VoiceSepAcousticAS.bib
+link1_name=Paper
+link1_location=pdf/VoiceSepAcousticAS.pdf
+link2_name=Bibtex
+link2_location=bib/VoiceSepAcousticAS.bib
 
 id=VoiceSeparation
 title=HMM-Based Voice Separation of MIDI Performance
