@@ -10,7 +10,7 @@ link2_location=pdf/Vocal4-ismir-poster.pdf
 link3_name=Bibtex
 link3_location=bib/VoiceSepAcoustic.bib
 link4_name=Software
-link4_location=http://inf.ufrgs.br/~rschramm/projects/msingers/
+link4_location=http://inf.ufrgs.br/~rschramm/projects/music/musingers/
 note=Authors 1 and 2 contributed equally to this work.
 
 id=MeterDetection

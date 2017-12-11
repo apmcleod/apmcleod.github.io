@@ -7,6 +7,8 @@ link1_name=Paper
 link1_location=pdf/VoiceSepAcousticAS.pdf
 link2_name=Bibtex
 link2_location=bib/VoiceSepAcousticAS.bib
+link3_name=Software
+link3_location=http://inf.ufrgs.br/~rschramm/projects/music/musingers/
 
 id=VoiceSeparation
 title=HMM-Based Voice Separation of MIDI Performance
