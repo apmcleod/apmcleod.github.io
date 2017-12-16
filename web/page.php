@@ -56,7 +56,7 @@ abstract class Page {
 		$this->print_nav_link("Home");
 		$this->print_nav_link("Publications");
 		$this->print_nav_link("Software");
-		print '<a class="nav-link" href="https://pondhoppers.bandcamp.com/releases"><li class="nav nav-inactive">Music</li></a>';
+		print '<a class="nav-link" href="https://pondhoppers.bandcamp.com"><li class="nav nav-inactive">Music</li></a>';
 		
 		print '
 					</ul>
