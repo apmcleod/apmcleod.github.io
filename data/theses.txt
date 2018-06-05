@@ -3,7 +3,7 @@ title=The Language of Music: A Computational Model of Music Interpretation
 year=2018
 location=PhD Thesis, University of Edinburgh
 link1_name=Paper
-link1location=pdf/Thesis.pdf
+link1_location=pdf/Thesis.pdf
 link2_name=Bibtex
 link2_location=bib/Thesis.bib
 
