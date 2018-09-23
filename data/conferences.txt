@@ -1,18 +1,30 @@
 id=Eval
 title=Evaluating Automatic Polyphonic Music Transcription
 authors=Andrew McLeod and Mark Steedman
-year=2018, to appear
+year=2018
 location=ISMIR
-link1_name=Bibtex
-link1_location=bib/Eval.bib
+link1_name=Paper
+link1_location=pdf/ISMIR_Eval.pdf
+link2_name=Bibtex
+link2_location=bib/Eval.bib
+link3_name=Poster
+link3_location=pdf/ISMIR_Eval_Poster.pdf
+link4_name=Presentation
+link4_location=pdf/ISMIR_Eval_Presentation.pdf
 
 id=LiveMeter
 title=Meter Detection and Alignment of MIDI Performance
 authors=Andrew McLeod and Mark Steedman
-year=2018, to appear
+year=2018
 location=ISMIR
-link1_name=Bibtex
-link1_location=bib/LiveMeter.bib
+link1_name=Paper
+link1_location=pdf/ISMIR_Meter.pdf
+link2_name=Bibtex
+link2_location=bib/LiveMeter.bib
+link3_name=Poster
+link3_location=pdf/ISMIR_Meter_Poster.pdf
+link4_name=Presentation
+link4_location=pdf/ISMIR_Meter_Presentation.pdf
 
 id=VoiceSepAcoustic
 title=Multi-pitch Detection and Voice Assignment for a Cappella Recordings of Multiple Singers
