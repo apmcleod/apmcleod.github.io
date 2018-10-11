@@ -1,6 +1,0 @@
-AddHandler php5-script .html .bib
-
-AddType application/x-httpd-php .html .bib
-
-RemoveHandler .html .bib
-AddType application/x-httpd-php .html .bib
